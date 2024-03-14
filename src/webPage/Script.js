@@ -40,12 +40,12 @@ const Script = () => {
       });
 
       // typing text animation script
-      const typed = new Typed(".typing", {
-        strings: ["YouTuber", "Developer", "Blogger", "Designer", "Freelancer"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-      });
+      // const typed = new Typed(".typing", {
+      //   strings: ["YouTuber", "Developer", "Blogger", "Designer", "Freelancer"],
+      //   typeSpeed: 100,
+      //   backSpeed: 60,
+      //   loop: true
+      // });
 
       // owl carousel script
       $('.carousel').owlCarousel({

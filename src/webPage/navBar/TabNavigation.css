@@ -1,0 +1,68 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    /* z-index: 999; */
+    /* padding: 30px 0; */
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.5s ease;
+    background-color: orangered;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5rem 1rem 5rem;
+}
+
+.navbar .logo a {
+    color: deepskyblue;
+    font-size: 35px;
+    font-weight: 600;
+    display: flex;
+}
+
+.navbar .logo a span {
+    color: #fff;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li:hover {
+    color: deepskyblue;
+}
+
+
+.navbar .menu li a button {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.navbar .menu li a button:hover {
+    color: deepskyblue;
+}
+
+.navbar.sticky .menu li a:hover {
+    color: #fff;
+}
+
+/* menu btn styling */
+.menu-btn {
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+  }
+
+  

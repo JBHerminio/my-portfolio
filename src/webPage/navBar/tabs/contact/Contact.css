@@ -44,9 +44,8 @@
   display: flex;
 }
 
-/* Social Media*/
-.contact .contact-content .row .space {
-  padding-left: 1rem;
+.contact .contact-content .row .space img:hover {
+  cursor: pointer;
 }
 
 /* Message me*/
@@ -115,4 +114,24 @@
   color: deepskyblue;
   border: 2px solid deepskyblue;
   background: none;
+}
+
+/* Social Media*/
+.contact .contact-content .row .space {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 1rem;
+  width: 100%;
+}
+
+.contact .contact-content .row .space a:hover {
+  border: 2px solid deepskyblue;
+
+}
+
+.contact .contact-content .row .space a:hover {
+  transition: all 0.4s ease;
+  background-color: deepskyblue;
+  border-radius: 25px;
 }
