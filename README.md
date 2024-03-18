@@ -1,6 +1,6 @@
 # Welcome to JBHerminio's Portfolio!
 
-### About Me
+#### About Me
 
 Welcome to my GitHub portfolio! I am a Frontend Developer, passionate about
 Web Development like Programming Languages, Web Development Frameworks and Mobile Development.
